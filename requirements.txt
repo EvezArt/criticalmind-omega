@@ -1,0 +1,29 @@
+# CriticalMind OMEGA Dependencies
+
+# Core computation
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Quantum simulation (fallback)
+qiskit>=0.45.0
+cirq>=1.3.0
+
+# Cryptography
+pycryptodome>=3.19.0
+
+# Async networking
+asyncio>=3.4.3
+aiohttp>=3.9.0
+
+# Data
+pandas>=2.1.0
+matplotlib>=3.8.0
+
+# Voice synthesis (optional)
+# TTS>=0.20.0
+# torch>=2.1.0
+
+# Platform integrations
+# stripe>=7.0.0
+# slack-sdk>=3.26.0
+# discord.py>=2.3.0
