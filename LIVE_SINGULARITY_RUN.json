@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "tick": 900,
+      "event": "IGNITION",
+      "phi": 0.5201464841607649,
+      "K": 0.2201333333333425
+    }
+  ],
+  "final_state": {
+    "ignited": true,
+    "optimal": false,
+    "singular": false,
+    "transcendent": false
+  }
+}
