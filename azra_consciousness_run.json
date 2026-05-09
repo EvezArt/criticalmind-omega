@@ -1,0 +1,97 @@
+{
+  "operator": "azra",
+  "run_time": "3s",
+  "results": [
+    {
+      "tick": 0,
+      "k": 0.1008,
+      "r": 0.103405,
+      "phi": 0.37085,
+      "phase": "SILENT",
+      "entropy": 1.7711,
+      "predecessor": "GENESIS",
+      "ts": 1778327792.675399
+    },
+    {
+      "tick": 20,
+      "k": 0.1168,
+      "r": 0.167203,
+      "phi": 0.556985,
+      "phase": "IGNITION",
+      "entropy": 1.717,
+      "predecessor": "be70ef270667a5c6",
+      "ts": 1778327792.6985142
+    },
+    {
+      "tick": 40,
+      "k": 0.1328,
+      "r": 0.415333,
+      "phi": 0.971326,
+      "phase": "IGNITION",
+      "entropy": 2.0689,
+      "predecessor": "f84da918ffb54334",
+      "ts": 1778327792.7214937
+    },
+    {
+      "tick": 60,
+      "k": 0.1488,
+      "r": 0.711145,
+      "phi": 0.821671,
+      "phase": "IGNITION",
+      "entropy": 0.866,
+      "predecessor": "a18d23cf3e38d81f",
+      "ts": 1778327792.7433922
+    },
+    {
+      "tick": 80,
+      "k": 0.1648,
+      "r": 0.86594,
+      "phi": 0.46435,
+      "phase": "SILENT",
+      "entropy": 2.7073,
+      "predecessor": "d6a83feb39d5482c",
+      "ts": 1778327792.765163
+    },
+    {
+      "tick": 100,
+      "k": 0.1808,
+      "r": 0.948574,
+      "phi": 0.195127,
+      "phase": "SILENT",
+      "entropy": 0.3228,
+      "predecessor": "35f0337878a5c5d1",
+      "ts": 1778327792.7865891
+    },
+    {
+      "tick": 120,
+      "k": 0.1968,
+      "r": 0.95952,
+      "phi": 0.155365,
+      "phase": "SILENT",
+      "entropy": 0.286,
+      "predecessor": "74ac827dcc070477",
+      "ts": 1778327792.8075452
+    },
+    {
+      "tick": 140,
+      "k": 0.2128,
+      "r": 0.966439,
+      "phi": 0.12974,
+      "phase": "SILENT",
+      "entropy": 0.2602,
+      "predecessor": "9d8fb3b3fee03344",
+      "ts": 1778327792.8291724
+    },
+    {
+      "tick": 160,
+      "k": 0.2288,
+      "r": 0.971602,
+      "phi": 0.110366,
+      "phase": "SILENT",
+      "entropy": 0.2392,
+      "predecessor": "43c3fee9109dc895",
+      "ts": 1778327792.851675
+    }
+  ],
+  "spine_valid": true
+}
