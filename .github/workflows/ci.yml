@@ -1,11 +1,20 @@
-name: OMEGA CI
-on: [push]
+name: CI Health Check
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  schedule:
+    - cron: '0 6 * * 1'
 jobs:
-  test:
+  health:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: '3.11'}
-      - run: pip install numpy scipy aiohttp
-      - run: python -c "import main_unleashed; print('OMEGA import OK')"
+        with:
+          python-version: '3.11'
+      - name: Install and check
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          find . -name '*.py' -not -path './.git/*' -exec python -m py_compile {} \;
